@@ -73,3 +73,64 @@ footer {
   color: #8fb8ff;
   margin-top: 2rem;
 }
+/* === Learning Sections === */
+.learning-section {
+  background-color: #002b5b;
+  margin: 3rem auto;
+  max-width: 950px;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease;
+}
+
+.learning-section:hover {
+  transform: translateY(-5px);
+}
+
+.learning-section h2 {
+  color: #4da8ff;
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+
+.learning-section p {
+  color: #c9dbff;
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.learning-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.learning-section li {
+  background-color: #001f3f;
+  margin: 0.7rem 0;
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.learning-section li:hover {
+  background-color: #003a75;
+}
+
+.learning-section a {
+  color: #4da8ff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.learning-section a:hover {
+  text-decoration: underline;
+}
+
+/* Optional — spacing before footer */
+footer {
+  margin-top: 3rem;
+}
